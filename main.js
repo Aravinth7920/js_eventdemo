@@ -6,6 +6,7 @@ let container = document.getElementById("container");
  let img = document.getElementsByTagName("img");
 let para = document.getElementsByClassName("para")
 let btn = document.getElementsByTagName("button")
+let link = document.getElementsByTagName("a")
 
 function demo(){
 
@@ -21,6 +22,6 @@ function demo(){
     container.appendChild(video)
 
    
-
+  link[0].remove();
   btn[0].remove();
 }
